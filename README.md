@@ -3,11 +3,11 @@
 1. Bu repoyu clone alın
 
     ```bash 
-    git clone https://github.com/mertyakan/velero-minio
+    git clone https://github.com/mertyakan/velero-minio.git
     cd velero
     ```
 
-1. `minio-deploy.yaml` manifest dosyasını deploy edin. Bunun dışında service account, namespace gibi işlemler için klasörü apply edebilirsiniz, Portworx kullanmıyorsanız stateful editleyerek storageclass'ı defaulta çekebilirsiniz,
+1. Manifest dosyalarını deploy edin. Bunun dışında service account, namespace gibi işlemler için klasörü apply edebilirsiniz, Portworx kullanmıyorsanız stateful editleyerek storageclass'ı defaulta çekebilirsiniz,
 
     ```bash
     kubectl apply ./minio
