@@ -30,9 +30,9 @@
     ```
     
     
-## Install Velero
+## Install Velero with restic
 
-``bash 
+```bash 
 velero install                                                                                   \
 --provider aws                                                                                   \
 --plugins velero/velero-plugin-for-aws:v1.3.0                                                    \
