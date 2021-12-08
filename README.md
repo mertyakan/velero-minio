@@ -1,9 +1,4 @@
 # velero-minio
-Velero consists of the following components:
-1. A velero Server in the cluster
-1. A CLI client
-1. A restic daemonset in the cluster
-
 
 1. Bu repoyu clone alın
 
