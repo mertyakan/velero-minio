@@ -7,7 +7,7 @@
     cd velero
     ```
 
-1. `minio-deploy.yaml` manifest dosyasını deploy edin. Portworx kullanmıyorsanız stateful editleyerek storageclass'ı defaulta çekebilirsiniz,
+1. `minio-deploy.yaml` manifest dosyasını deploy edin. Bunun dışında service account, namespace gibi işlemler için klasörü apply edebilirsiniz, Portworx kullanmıyorsanız stateful editleyerek storageclass'ı defaulta çekebilirsiniz,
 
     ```bash
     kubectl apply ./minio
